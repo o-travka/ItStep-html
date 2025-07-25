@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 15px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    color: black;
+    border-bottom: solid rgb(214, 214, 246);
+    padding: 15px;
+}
+
+p {
+    color: black;
+    padding: 15px;
+}
+
+img {
+    width: 350px;
+    height: 250px;
+    padding: 15px;
+}
+
+/* Комментарии*/
+.comment-form {
+    background-color: #fff;
+    margin: 40px auto;
+    border-radius: 8px;
+}
+
+form label {
+    color: black;
+}
+
+form input,
+form textarea {
+    border: 1px solid black;
+    margin: 5px 0;
+}
+
+a {
+    color: blue;
+}
+
+/* Кнопки */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #07af0d;
+}
