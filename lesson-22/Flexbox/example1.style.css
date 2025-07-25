@@ -1,9 +1,24 @@
-.conteiner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: column;
+    justify-content: space-around; выравние в строку
     align-items: center;
+    height: 100vh; высота экрана
     flex-wrap: wrap;
     align-content: center;
-    
-}
+     */
+
+
+    .flex-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+        border: 4px solid #ccc
+    }
+
+    /* Указываем как внутри контейнера будут отображаться элементы */
+    .flex-item {
+        background-color: #f0f8ff;
+        border: 2px solid #005f6b;
+        padding: 20px;
+        font-size: 1.5em;
+    }
