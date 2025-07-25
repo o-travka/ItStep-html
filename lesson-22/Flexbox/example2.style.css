@@ -1,12 +1,4 @@
-    /* flex-direction: column;
-    justify-content: space-around; выравние в строку
-    align-items: center;
-    height: 100vh; высота экрана
-    flex-wrap: wrap;
-    align-content: center;
-     */
-
-     body {
+body {
         margin: 0;
         display: flex;
         justify-content: center;
