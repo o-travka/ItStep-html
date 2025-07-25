@@ -1,27 +1,68 @@
 body {
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #f0f8ff;
-     }
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+}
 
-    .flex-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
-        height: 300px;
-        width: 300px;
-        border: 4px solid #ccc
-    }
+    height: 300px;
+    width: 300px;
+    border: 4px solid #ccc
+}
 
-    /* Указываем как внутри контейнера будут отображаться элементы */
-    .flex-item {
-        background-color: #f0f8ff;
-        border: 2px solid #005f6b;
-        padding: 20px;
-        font-size: 1.5em;
-        text-align: center;
-    }
+/* Указываем как внутри контейнера будут отображаться элементы */
+.flex-item {
+    background-color: #f0f8ff;
+    border: 2px solid #005f6b;
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* body
+margin: 0; — убирает внешние отступы по умолчанию, которые браузер применяет к <body>.
+
+display: flex; — превращает <body> в flex-контейнер, чтобы удобно выравнивать содержимое.
+
+justify-content: center; — выравнивает по горизонтали всё содержимое body по центру.
+
+align-items: center; — выравнивает по вертикали по центру.
+
+height: 100vh; — делает высоту <body> равной 100% от высоты окна браузера (viewport height).
+
+background-color: #f0f8ff; — задаёт фоновый цвет страницы. */
+
+/* .flex-container
+.flex-container — это класс, который применяется к div-контейнеру.
+
+display: flex; — делает элемент flex-контейнером.
+
+flex-direction: column; — размещает дочерние элементы в колонку (вертикально).
+
+justify-content: space-around; — распределяет дочерние элементы равномерно с отступами до, между и после них.
+
+height: 300px; — фиксированная высота контейнера.
+
+width: 300px; — фиксированная ширина контейнера.
+
+border: 4px solid #ccc; — серый контур вокруг контейнера. */
+
+/* .flex-item
+.flex-item — класс для дочерних элементов внутри .flex-container.
+
+background-color: #f0f8ff; — тот же бледно-голубой фон.
+
+border: 2px solid #005f6b; — синяя рамка вокруг каждого элемента.
+
+padding: 20px; — внутренние отступы вокруг содержимого.
+
+font-size: 1.5em; — размер шрифта в 1.5 раза больше базового (em — относительная единица).
+
+text-align: center; — выравнивание текста по центру. */
