@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction:row;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 16px;
+  flex: 1;
+}
+
+/* Адаптация для экранов < 600px */
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
