@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.grid-container {
+  display: grid;
+  gap: 20px;
+}
+
+/* ✅ Сетка по умолчанию — 1 колонка */
+.grid-container {
+  grid-template-columns: 1fr;
+}
+
+/* ✅ От 768px — 2 колонки */
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ✅ От 1024px — 4 колонки */
+@media (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-card h2 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+}
+
+.price {
+  color: #2e7d32;
+  font-weight: bold;
+  font-size: 1.1em;
+}
