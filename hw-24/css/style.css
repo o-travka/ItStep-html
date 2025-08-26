@@ -1013,6 +1013,16 @@ img{
     height: 100%;
 }
 
+.video__play {
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 112px;
+    height: 112px;
+    margin-top: -56px;
+    margin-left: -56px;
+}
+
 /* Videos styles end */
 
 /* Footer styles start */
